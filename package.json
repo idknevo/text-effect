@@ -1,0 +1,15 @@
+{
+  "name": "text-effect",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+  },
+  "author": "nevo",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
